@@ -2,16 +2,10 @@ body {
   margin: 0;
   font-family: sans-serif;
   overflow-x: hidden;  /* Скрываем горизонтальную прокрутку */
-  font-family: sans-serif;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px;
 }
-
 .header {
   opacity: 0; /* Начальное состояние: невидимый */
-  transform: translateY(-30px); /* Начальное положение: немного выше */
+  transform: translateY(-px); /* Начальное положение: немного выше */
   transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Анимация: 1 секунда, плавный переход */
 }
 
@@ -128,50 +122,4 @@ body {
 .glow-button:active {
   transform: scale(1.1);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-.card {
-  width: 300px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-.card h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.card img {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 10px;
-}
-
-.card p {
-  line-height: 1.6;
-}
-
-.button {
-  background-color: #ff9800;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.step-number {
-  background-color: #ff9800;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 50%;
-  position: absolute;
-  top: -10px;
-  left: -10px;
-}
-button:hover{
-  background-color: #ff9800;
 }
