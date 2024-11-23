@@ -47,12 +47,11 @@
       window.location.href = "https://t.me/+2lkZDZ6y0vhkMGZi";
     });
 
-    // Добавляем класс show через 0.5 секунды после загрузки страницы
     window.addEventListener('load', () => {
-      setTimeout(() => {
-        header.classList.add('show');
-      }, 500);
-    });
+  setTimeout(() => {
+    document.querySelector('.content-container').classList.add('show');
+  }, 500); 
+});
 
   </script>
  
